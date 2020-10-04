@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!-- BAD GAMES BIZNIS -->
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Paka Paka</title>
+    <link rel="icon" href="assets/ico.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js" charset="utf-8"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="paka-game">
+        <div class="grid"></div>
+        <div class="info">
+            <img src="assets/paka-logo.png" class="plogo">
+            <!-- TO CHANGE -->
+            <div class="start" onclick="window.location.reload();">Start</div>
+            <!-- <div class="start" onclick="startGame()"></div> -->
+
+            <div class="infoBox"></div>
+            <p>Score: <span id="score"></span></p>
+            <p>Timer: <span class="timer">0</span></p>
+            <div class="table">
+                <p>TopScore:</p>
+                <p class="highScore"></p>
+            </div>
+            <p class="label">Controls</p>
+            <div class="controls">
+                <div class="up">up</div>
+                <div class="sideways">
+                    <div class="left">left</div>
+                    <div class="right">right</div>
+                </div>
+                <div class="down">down</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
