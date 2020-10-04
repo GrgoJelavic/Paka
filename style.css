@@ -1,0 +1,248 @@
+body {
+    margin: 0px;
+    background-image: url("assets/bckg.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #222222;
+    color: #fff800;
+    font-family: 'Press Start 2P';
+}
+
+.paka-game {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-content: space-around;
+    margin-top: 2%;
+}
+
+
+/* info */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    width: 256px;
+    margin: 0 25px;
+    cursor: pointer;
+}
+
+.infoBox {
+    color: gray;
+    font-size: 20px;
+    height: 8%;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px auto;
+}
+
+.start {
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    padding: 15px 0px;
+    width: 90%;
+    background-color: #f2524e;
+    box-shadow: 5px 5px 0 #fff800;
+    border-color: black;
+}
+
+.start:active {
+    top: 5px;
+    box-shadow: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: -5px;
+}
+
+.info>p {
+    margin: 10px auto;
+    height: 5%;
+}
+
+p {
+    font-weight: bold;
+}
+
+.timer {
+    font-weight: bold;
+}
+
+.table {
+    border: 2px solid #f2524e;
+    width: 90%;
+    height: 20%;
+}
+
+.label {
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+}
+
+.up,
+.down,
+.left,
+.right {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f2524e;
+    padding-top: 20px;
+    height: 40px;
+    box-shadow: 5px 5px 0 #fff800;
+}
+
+.sideways {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Press Start 2P';
+}
+
+.up.active {
+    box-shadow: none;
+    margin: 5px -5px -5px 5px;
+}
+
+.down.active {
+    box-shadow: none;
+    margin: 5px -5px -5px 5px;
+}
+
+.right.active {
+    box-shadow: none;
+    margin: 5px 5px -5px 5px;
+}
+
+.left.active {
+    box-shadow: none;
+    margin: 5px 5px -5px 15px;
+}
+
+.up,
+.down {
+    width: 65%;
+}
+
+.left,
+.right {
+    width: 40%;
+    margin: 0 10px;
+    font-size: 50;
+}
+
+
+/* game */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+    height: 768px;
+    background-image: url('./assets/mapa-paka.jpg');
+}
+
+.grid div {
+    width: 32px;
+    height: 32px;
+}
+
+.food {
+    background-image: url('./assets/gifs/food.gif');
+    background-size: 16px;
+    background-repeat: no-repeat;
+    border: 8px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+}
+
+.power-star {
+    background-image: url('./assets/gifs/star.gif');
+    background-size: 32px;
+    ;
+}
+
+.paka {
+    background-size: 32px;
+}
+
+.paka--right {
+    background-image: url('./assets/gifs/paka-desno.gif');
+}
+
+.paka--up {
+    background-image: url('./assets/gifs/paka-gori.gif');
+}
+
+.paka--left {
+    background-image: url('./assets/gifs/paka-livo.gif');
+}
+
+.paka--down {
+    background-image: url('./assets/gifs/paka-doli.gif');
+}
+
+.funki {
+    background-image: url('./assets/gifs/funki.gif');
+    background-size: 32px;
+    border: 0px;
+}
+
+.monki {
+    background-image: url('./assets/gifs/monki.gif');
+    background-size: 32px;
+    border: 0px;
+}
+
+.donki {
+    background-image: url('./assets/gifs/donki.gif');
+    background-size: 32px;
+    border: 0px;
+}
+
+.junki {
+    background-image: url('./assets/gifs/junki.gif');
+    background-size: 32px;
+    border: 0px;
+}
+
+.scared-ghost {
+    background-image: url('./assets/gifs/spuki.gif');
+    background-size: 32px;
+    border: 0px
+}
+
+.game-over {
+    background-image: url('./assets/gifs/game-over.gif');
+    background-size: 32px;
+    border: 0px
+}
+
+.paka-win {
+    background-image: url('./assets/gifs/win-paka-loop.gif');
+    background-size: 32px;
+    border: 0px
+}
+
+.paka-win-ghosts {
+    background-image: url('./assets/gifs/win-ghosts-loop.gif');
+    background-size: 32px;
+    border: 0px
+}
+
+
+/** T **/
+
+.plogo {
+    margin: 20px;
+}
