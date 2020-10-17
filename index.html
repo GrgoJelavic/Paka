@@ -10,7 +10,6 @@
     <link rel="icon" href="assets/ico.png">
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js" charset="utf-8"></script>
-
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
 </head>
@@ -25,6 +24,8 @@
             <!-- <div class="start" onclick="startGame()"></div> -->
 
             <div class="infoBox"></div>
+            <audio src="./assets/paka-music.mp3" loop id="music"></audio>
+            <img src="assets/gifs/off.png" id="soundImage" onclick="toggleSound()">
             <p>Score: <span id="score"></span></p>
             <p>Timer: <span class="timer">0</span></p>
             <div class="table">
@@ -42,6 +43,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
